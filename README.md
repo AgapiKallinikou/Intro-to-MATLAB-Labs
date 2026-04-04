@@ -46,4 +46,13 @@ Each directory represents a standalone laboratory session, containing the source
       result = factRec(5);
       fprintf('Result: %d\n', result);
    ```
-   
+ ---
+ 
+## Academic Context & Author
+
+These scripts and functions were developed and curated during my tenure as a **Laboratory Teaching Assistant** for the "Informatics I" course at the **National and Kapodistrian University of Athens (NKUA)**.
+
+* **Author:** Agapi Kallinikou
+* **Role:** Undergraduate Teaching Assistant (Informatics I Lab)
+* **Department:** Department of Mathematics
+* **Academic Period:** 2023 - 2024
