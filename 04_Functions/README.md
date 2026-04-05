@@ -10,7 +10,6 @@ This session focuses on modular programming using **Functions**. Key concepts in
 | `days_between.m` | Computes the number of days between two dates within the same year. |
 | `is_prime_func.m` | A logical function to check if a number is prime using $\sqrt{n}$ optimization. |
 | `fibonacci_range.m` | Finds and prints Fibonacci numbers within a specific range $[a, b]$. |
-| `fibonacci_limit.m` | Calculates the number of iterations needed for the ratio of Fibonacci numbers to converge to the Golden Ratio ($\phi$) given a precision $\epsilon$. |
 | `binomial_coeff.m` | Implements the mathematical formula $\binom{n}{k} = \frac{n!}{k!(n-k)!}$ using helper functions. |
 
 ## 🚀 Key Takeaways
