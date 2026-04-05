@@ -2,7 +2,7 @@
 
 This laboratory session focuses on translating classical mathematical and theoretical computer science problems into efficient MATLAB algorithms. It covers element uniqueness, number theory, and basic data interpolation.
 
-## 📂 Contents
+## Contents
 
 | File | Description |
 | :--- | :--- |
@@ -12,7 +12,7 @@ This laboratory session focuses on translating classical mathematical and theore
 | `next_perfect_number.m` | Utilizes an indefinite `while` loop to calculate the *next* sequential perfect number strictly greater than a given integer $n$. |
 | `interpolate_1d.m` | A fundamental algorithm for **Data Interpolation**. It takes a 1D signal/vector and doubles its resolution by dynamically inserting the mean average between all adjacent data points. |
 
-## 🚀 Key Takeaways
+## Key Takeaways
 * Applying mathematical definitions (like Perfect Numbers) to code.
 * Understanding when to use `break` or `return` to optimize nested loops.
 * Array manipulation: dynamically expanding arrays using correct indexing formulas (e.g., mapping $i$ to $2i-1$).
