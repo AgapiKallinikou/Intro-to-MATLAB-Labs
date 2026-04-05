@@ -1,16 +1,28 @@
-# Lab 08: Interdisciplinary Applications
+# Lab 08: Advanced Algorithmic Applications
 
-This final laboratory session bridges the gap between raw coding and real-world scientific applications. It showcases how MATLAB can be utilized across various disciplines, including linear algebra, signal processing, and bioinformatics.
+This laboratory session bridges the gap between raw coding and real-world scientific applications. It showcases how MATLAB is utilized across various disciplines, from multidimensional data scaling to high-throughput bioinformatics.
 
-## 📂 Contents
+## Contents
 
-| File | Discipline | Description |
-| :--- | :--- | :--- |
-| `det3.m` | Linear Algebra | Computes the determinant of a $3 \times 3$ matrix via Laplace expansion, demonstrating advanced submatrix extraction and indexing techniques. |
-| `signal_add.m` | Signal Processing | Takes two discrete signals with potentially overlapping or disjoint domains, unifies their domains via zero-padding, and safely computes their sum. |
-| `dna_complement.m` | Bioinformatics | Processes a DNA character array (string), performing algorithmic reversal and conditional matching to construct the reverse-complement strand. |
+### 🧬 Bioinformatics (String & Matrix Processing)
+| File | Description |
+| :--- | :--- |
+| `dna_complement.m` | Computes the reverse-complement of a **single** DNA sequence. Uses vectorized reversal (`end:-1:1`) and a `switch-case` block for base-pair mapping ($A \leftrightarrow T, C \leftrightarrow G$). |
+| `dna_complement_bulk.m` | An extension for **batch processing**. It accepts a 2D character matrix where each row is a sequence, performing reverse-complement operations on multiple strands simultaneously. |
 
-## 🚀 Key Takeaways
-* **Submatrix Indexing:** Dynamically extracting specific rows and columns (e.g., `A(2:3, [1, 3])`).
-* **Vector Shifting/Mapping:** Transforming mathematical domain values (like timestamps or coordinates) into 1-based array indices.
-* **String Manipulation:** Working with character arrays efficiently using reverse indexing (`end:-1:1`) and `switch-case` statements for cleaner conditional logic.
+### 🖼️ Signal & Image Processing (Numerical Analysis)
+| File | Description |
+| :--- | :--- |
+| `interpolate_2d.m` | Implements a **Two-Pass Bilinear Interpolation** algorithm. It upscales a 2D grid by calculating the arithmetic mean between adjacent points in two stages: horizontal then vertical expansion. |
+| `signal_add.m` | A robust algorithm for adding discrete-time signals with overlapping or distinct domains. It performs automatic **zero-padding** and domain unification via coordinate-to-index mapping. |
+
+### 📐 Linear Algebra
+| File | Description |
+| :--- | :--- |
+| `det3.m` | Computes the determinant of a $3 \times 3$ matrix via **Laplace expansion**, demonstrating advanced submatrix extraction and indexing techniques. |
+
+## Key Takeaways
+* **Vectorization & Performance:** Leveraging MATLAB's native indexing (like `end:-1:1`) to avoid slow manual loops for array reversal.
+* **Two-Pass Matrix Expansion:** Breaking down complex 2D problems (like image resizing) into sequential 1D operations for clarity and efficiency.
+* **Batch Processing:** Moving from single-variable functions to matrix-based "bulk" operations, simulating high-throughput data analysis.
+* **Coordinate-to-Index Mapping:** Mastering the formula `index = x - x_min + 1` to align asynchronous data onto a common computational grid.
