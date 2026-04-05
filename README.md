@@ -1,4 +1,4 @@
-# 🚀 MATLAB Programming Labs | Informatics I
+# MATLAB Programming Labs | Informatics I
 ### National and Kapodistrian University of Athens (NKUA) - Department of Mathematics
 
 This repository contains the complete set of solutions for the **Informatics I** laboratory exercises. The curriculum covers fundamental programming principles using MATLAB/Octave, ranging from basic I/O to advanced recursive algorithms.
@@ -11,7 +11,7 @@ Each directory represents a standalone laboratory session, containing the source
 
 | Folder | Lab Topic | Key Concepts |
 | :--- | :--- | :--- |
-| **01_Intro_IO** | Introduction & I/O | Variables, `input`, `disp`, `fprintf`, output formatting. |
+| **01_Intro_IO** | Introduction | Variables, `input`, `disp`, `fprintf`, output formatting. |
 | **02_Conditionals** | Control Flow | `if`, `else`, `elseif`, logical operators, input validation. |
 | **03_Loops** | Iterative Processes | `for` & `while` loops, summations, primality testing. |
 | **04_Functions** | Modular Programming | Function definitions, variable scope, code reusability. |
@@ -25,28 +25,9 @@ Each directory represents a standalone laboratory session, containing the source
 
 ## 🛠️ Tech Stack
 * **Language:** MATLAB / GNU Octave
-* **Mathematical Fields:** Linear Algebra, Number Theory, Calculus, Statistics.
+* **Mathematical Fields:** Linear Algebra, Number Theory, Calculus, Statistics
 
 ---
-
-## 🚀 How to Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/matlab-labs.git](https://github.com/your-username/matlab-labs.git)
-   ```
-
-2. **Open in MATLAB/Octave:**
-   Navigate to the specific lab folder via the file browser.
-
-3. **Execution:**
-   Run functions directly from the Command Window. Example:
-   ```bash
-   % Example: Calculating a recursive factorial
-      result = factRec(5);
-      fprintf('Result: %d\n', result);
-   ```
- ---
  
 ## Academic Context & Author
 
