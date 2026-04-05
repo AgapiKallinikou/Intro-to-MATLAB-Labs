@@ -1,4 +1,4 @@
-# Lab 01: Introduction & Basic I/O
+# Lab 01: Introduction & Basic 
 
 This folder contains the introductory laboratory exercises for the Informatics I course. The goal of this session is to familiarize students with the MATLAB/Octave environment, basic variable assignment, and user Input/Output operations.
 
