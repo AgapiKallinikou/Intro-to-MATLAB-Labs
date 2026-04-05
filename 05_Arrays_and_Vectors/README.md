@@ -20,7 +20,7 @@ The `roll_dice_simulation.m` script is more than just an array exercise; it serv
 
 From a statistical perspective, if you run this code with a large number of trials ($n$) and $d \ge 3$ dice, and then plot the resulting `count` vector (frequency distribution), you will visually observe the **Normal Distribution** forming. This is a practical, code-driven demonstration of the **Central Limit Theorem** in action!
 
-## 🚀 Key Takeaways
+## Key Takeaways
 * Preallocating arrays using `zeros()` for memory efficiency.
 * Understanding algorithmic complexity through sorting and searching.
 * Handling edge cases (e.g., division by zero when calculating averages of empty subsets).
