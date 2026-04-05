@@ -2,7 +2,7 @@
 
 This laboratory explores **Recursion**, a fundamental programming paradigm where a function calls itself to solve smaller instances of the same problem.
 
-## 📂 Contents
+## Contents
 
 | File | Concept | Logic |
 | :--- | :--- | :--- |
